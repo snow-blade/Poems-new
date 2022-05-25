@@ -1,0 +1,44 @@
+/*!
+ * The styles for Jekyll theme Chirpy
+ *
+ * Chirpy v3.2.2 (https://github.com/cotes2020/jekyll-theme-chirpy)
+ * © 2019 Cotes Chung
+ * MIT Licensed
+ */
+
+@import
+  "colors/light-typography",
+  "colors/dark-typography",
+
+  "addon/module",
+  "addon/variables",
+  "addon/syntax",
+  "addon/commons",
+
+  "layout/home",
+  "layout/post",
+  "layout/tags",
+  "layout/archives",
+  "layout/categories",
+  "layout/category-tag";
+
+.tip {
+    border-left: 10px solid rgb(53, 7, 206);
+    border-left-color: rgb(241, 70, 2);
+    color: black;
+    line-height: 1.6;
+    border-radius: 4px;
+    padding: 0.4rem 0.8rem;
+    background-color: #a2a360;
+    -webkit-box-shadow: -12px 14px 25px 18px #301e35; 
+    box-shadow: -12px 14px 25px 18px #301e35;
+  }
+  .tip-header {
+    align-items: center;
+    background-color: #a2a360;
+    border-color: coral;
+    border: 2px solid #9c1e1e;
+    border-style: dotted;
+    -webkit-box-shadow: -12px 14px 25px 18px #301e35; 
+    box-shadow: -12px 14px 25px 18px #301e35;
+  }
